@@ -44,28 +44,28 @@ function Content(props) {
 	switch(props.structure){
 		
 		case Structures.ONE_TEXT_ONE_IMAGE: return (
-			<div className="flex padding margin darkshade center">
+			<div id={props.name.toUpperCase()} className="flex padding margin darkshade center">
 				<Box type={SourceTypes.TEXT} name={props.name} />
 				<Box type={SourceTypes.IMAGE} name={props.name} />
 			</div>
 		); 
 
 		case Structures.ONE_IMAGE_ONE_TEXT: return (
-			<div className="flexColumn padding margin darkshade center">
+			<div id={props.name.toUpperCase()} className="flexColumn padding margin darkshade center">
 				<Box type={SourceTypes.IMAGE} name={props.name} />
 				<Box type={SourceTypes.TEXT} name={props.name} />
 			</div>	
 		);
 
 		case Structures.ONE_IMAGE_ONE_TEXT_FLEX: return(
-			<div className="flex padding margin darkshade center">
+			<div id={props.name.toUpperCase()} className="flex padding margin darkshade center">
 				<Box type={SourceTypes.IMAGE} name={props.name} />
 				<Box type={SourceTypes.TEXT} name={props.name} />
 			</div>	
 		);
 
 		case Structures.TWO_IMAGE_TWO_TEXT: return (
-			<div className="flexColumn padding margin darkshade center">
+			<div id={props.name.toUpperCase()} className="flexColumn padding margin darkshade center">
 				<div className="flex padding center">
 					<Box type={SourceTypes.IMAGE} name={props.name} />
 				</div>

@@ -1,8 +1,4 @@
 
-body{
-	background-color: #233237;
-}
-
 .flexColumn{
 	display: flex;
 	flex-direction: column;
@@ -22,34 +18,45 @@ body{
 }
 
 .margin{
-	margin: 20px;
+	margin: 10px;
 }
 
 .darkshade{
-	max-width: 1200px;
 	background-color: #EEEEEE;
 }
 
 #noriaki{
 	max-width: 300px;
+	width: 100%;
+	object-fit: contain;
 }
 
 #data_viz{
 	max-width: 800px;
+	width: 100%;
+	object-fit: contain;
 }
 
 #brand_recog{
-	max-width: 300px;
+	min-width: 200px;
+	max-width: 400px;
+	object-fit: contain;
 }
 
 #everybody_sad_0{
 	max-height: 175px;	
-	padding-left: 20px;
-	padding-right: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
+	width: 100%;
+	object-fit: contain;
 }
 
 #everybody_sad_1{
 	max-height: 175px;	
+	padding-left: 10px;
+	padding-right: 10px;
+	width: 100%;
+	object-fit: contain;
 }
 
 @media (max-width: 600px){

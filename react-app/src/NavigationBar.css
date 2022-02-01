@@ -1,0 +1,22 @@
+div#navBar{
+	position: -webkit-sticky;
+	position: sticky;
+	display: flex;
+	justify-content: center;
+	background-color: white;
+	font-weight: bold;
+  	top: 0;
+ }
+
+a.navBarContent{
+	padding: 5px 10px 5px 10px;
+	outline: none;
+	border: none;
+	text-align: center;
+	text-decoration: none;
+	color: black;
+}
+
+a.navBarContent:hover{
+	color: red;
+}
