@@ -1,0 +1,59 @@
+
+body{
+	background-color: #233237;
+}
+
+.flexColumn{
+	display: flex;
+	flex-direction: column;
+}
+
+.flex{
+	display: flex;
+	flex-direction: row;
+}
+
+.center{
+	justify-content: center;
+}
+
+.padding{
+	padding: 20px;
+}
+
+.margin{
+	margin: 20px;
+}
+
+.darkshade{
+	max-width: 1200px;
+	background-color: #EEEEEE;
+}
+
+#noriaki{
+	max-width: 300px;
+}
+
+#data_viz{
+	max-width: 800px;
+}
+
+#brand_recog{
+	max-width: 300px;
+}
+
+#everybody_sad_0{
+	max-height: 175px;	
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+#everybody_sad_1{
+	max-height: 175px;	
+}
+
+@media (max-width: 600px){
+	div.flex {
+		flex-direction: column;
+	}
+}
