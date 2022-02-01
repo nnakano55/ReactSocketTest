@@ -9,7 +9,7 @@ const { dataVizText, dataVizImage } = DataViz;
 const { brandRecogText, brandRecogImage } = BrandRecog;
 const { everybodySadText, everybodySadImage } = EverybodySad;
 
- const ContentSource = {
+const ContentSource = {
  	ImageSource: {
  		About: aboutImage,
  		DataViz: dataVizImage,
