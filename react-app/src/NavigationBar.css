@@ -6,17 +6,22 @@ div#navBar{
 	background-color: #CCCCCC;
 	font-weight: bold;
   	top: 0;
+  	flex-wrap: wrap;
  }
 
 a.navBarContent{
+	background-color: #FFFFFF;
 	padding: 5px 10px 5px 10px;
+	margin: 5px 5px 5px 5px;
 	outline: none;
 	border: none;
 	text-align: center;
 	text-decoration: none;
+	border-radius: 5px;
 	color: black;
 }
 
 a.navBarContent:hover{
 	color: red;
+	background-color: #DDDDDD;
 }

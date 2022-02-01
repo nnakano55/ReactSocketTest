@@ -11,7 +11,7 @@ function MainContents() {
 		<div style={{
 			display:"flex",
 			justifyContent: "center",
-			backgroundColor: "#233237"
+			backgroundColor: "#233237",
 		}}>
 			<div style={{
 				display: "flex",

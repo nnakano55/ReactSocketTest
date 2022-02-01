@@ -1,4 +1,8 @@
 
+.radius{
+	border-radius: 20px;
+}
+
 .flexColumn{
 	display: flex;
 	flex-direction: column;
