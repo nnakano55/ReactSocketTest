@@ -8,8 +8,7 @@ function Title() {
 			fontSize: "35px",
 			color: "#FFFFFF",
 			paddingTop: "4%",
-			paddingBottom: "4%",
-			width: "100%"
+			paddingBottom: "4%"
 		}}>
 			<h1>Noriaki Nakano</h1>
 			<p>Welcome to my website</p>

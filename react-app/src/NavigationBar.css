@@ -3,7 +3,7 @@ div#navBar{
 	position: sticky;
 	display: flex;
 	justify-content: center;
-	background-color: white;
+	background-color: #CCCCCC;
 	font-weight: bold;
   	top: 0;
  }
